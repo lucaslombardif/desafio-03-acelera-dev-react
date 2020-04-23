@@ -8,9 +8,7 @@ const fibonacci = () => {
   return arr;
 }
 
-const isFibonnaci = (num) => {
-  return fibonacci().includes(num);
-}
+const isFibonnaci = (num) => fibonacci().includes(num);
 
 module.exports = {
   fibonacci,
